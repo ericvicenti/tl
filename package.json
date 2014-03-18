@@ -1,0 +1,26 @@
+{
+  "name": "tl",
+  "version": "0.0.0",
+  "description": "JS transport layer",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ericvicenti/tl.git"
+  },
+  "author": "Eric Vicenti <ericvicenti@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/ericvicenti/tl/issues"
+  },
+  "homepage": "http://ericvicenti.github.io/tl/",
+  "devDependencies": {
+    "chai": "^1.9.0",
+    "mocha": "^1.18.0"
+  }
+}
