@@ -1,14 +1,17 @@
 var Interface = require('../Interface');
-var assert = require('chai');
+var assert = require('chai').assert;
 
 describe("Interface", function() {
+
   it("should initialize", function() {
     var i = new Interface();
-    assert(i);
+    assert(!! i);
   });
+
   it("should add something", function() {
     var i = new Interface();
     i.add('foo', 'asdf');
-    assert(i.get('foo'));
+    assert(!! i.get('foo'));
   });
+
 });
